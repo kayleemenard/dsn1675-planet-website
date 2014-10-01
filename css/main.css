@@ -65,6 +65,14 @@ img {
     padding: 0.25rem;
     display: inline;
   }
+ .intro-main {
+    float: left;
+    overflow: hidden;
+  }
+  .intro {
+    float: left;
+    display: inline;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -78,15 +86,5 @@ img {
   }
   .header {
     overflow: hidden;
-  }
-
-  .intro-main {
-    float: left;
-    display: inline;
-  }
-
-  .intro-sub {
-    float: none;
-    display: inline-block;
   }
 }
