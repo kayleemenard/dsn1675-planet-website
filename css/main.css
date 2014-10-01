@@ -56,7 +56,8 @@ img {
   width: 100%;
 }
 
-@media only screen and (min-width: 20em) {
+
+@media only screen and (min-width: 25em) {
   .nav {
     text-align: center;
   }
@@ -77,5 +78,15 @@ img {
   }
   .header {
     overflow: hidden;
+  }
+
+  .intro-main {
+    float: left;
+    display: inline;
+  }
+
+  .intro-sub {
+    float: none;
+    display: inline-block;
   }
 }
