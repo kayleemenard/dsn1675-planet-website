@@ -56,6 +56,11 @@ img {
   width: 100%;
 }
 
+.intro {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
 @media only screen and (min-width: 25em) {
   .nav {
     text-align: center;
@@ -77,12 +82,5 @@ img {
   }
   .header {
     overflow: hidden;
-  }
-  .moon-unit-all {
-    float:left;
-  }
-
-  .moon-unit {
-    float: left;
   }
 }
