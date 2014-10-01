@@ -68,9 +68,6 @@ img {
     float: left;
     display: inline;
   }
- .intro-main {
-    float: left;
-  }
 }
 
 @media only screen and (min-width: 40em) {
