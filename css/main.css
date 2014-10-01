@@ -56,7 +56,6 @@ img {
   width: 100%;
 }
 
-
 @media only screen and (min-width: 25em) {
   .nav {
     text-align: center;
@@ -65,13 +64,12 @@ img {
     padding: 0.25rem;
     display: inline;
   }
- .intro-main {
-    float: left;
-    overflow: hidden;
-  }
   .intro {
     float: left;
     display: inline;
+  }
+ .intro-main {
+    float: left;
   }
 }
 
