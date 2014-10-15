@@ -59,7 +59,7 @@ h1 {
 
 .nav-footer a {
   text-decoration: none;
-  color: teal
+  color: teal;
 }
 
 img {
@@ -68,17 +68,17 @@ img {
 }
 
 .intro {
-  text-align: center;
   background-color: #e2e2e2;
+  overflow: hidden;
+}
+
+.intro p {
+  text-align: center;
 }
 
 .footer {
   background-color: #ccc;
   overflow: hidden;
-}
-
-.copyright {
-  float: left;
 }
 
 @media only screen and (min-width: 25em) /** small **/ {
@@ -88,11 +88,7 @@ img {
   .nav li {
     display: inline;
   }
-  .nav-footer li {
-    display: inline;
-  }
   .copyright {
-    float: none;
     text-align: center;
   }
 }
@@ -111,9 +107,6 @@ img {
   }
   .copyright {
     float: left;
-  }
-  .nav-footer {
-    float: right;
   }
 }
 
