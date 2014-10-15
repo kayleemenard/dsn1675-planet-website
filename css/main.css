@@ -81,6 +81,14 @@ img {
   overflow: hidden;
 }
 
+.light-bg {
+  background-color: #f8f8f8;
+}
+
+.med-bg {
+  background-color: #e2e2e2;
+}
+
 @media only screen and (min-width: 25em) /** small **/ {
   .nav {
     text-align: center;
@@ -128,6 +136,21 @@ img {
   }
   .nav-footer {
     float: right;
+  }
+
+  dl {
+    padding: 0;
+    overflow: hidden;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 10rem;
+  }
+  dd {
+    float: left;
+    margin: 0;
+    padding: 0;
   }
 }
 
