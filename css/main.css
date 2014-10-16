@@ -35,7 +35,7 @@ body {
   overflow: hidden;
 }
 
-h1 {
+.title {
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ img {
 }
 
 @media only screen and (min-width: 38em) /** medium **/{
-  h1 {
+  .title {
     float: left;
     text-align: left;
   }
