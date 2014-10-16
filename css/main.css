@@ -105,6 +105,7 @@ img {
   .nav-footer li {
     display: inline;
   }
+
 }
 
 @media only screen and (min-width: 38em) /** medium **/{
@@ -124,6 +125,13 @@ img {
   }
   .nav-footer {
     float: right;
+  }
+  .nav-footer-child {
+    list-style-type: circle;
+  }
+
+  li {
+    list-style-type: circle;
   }
 }
 
