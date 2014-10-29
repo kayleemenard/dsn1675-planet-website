@@ -182,22 +182,10 @@ img {
   html {
   font-size: 120%;
   }
-  .copyright {
-    float: left;
-  }
-  .nav-footer {
-    float: right;
-  }
 }
 
 @media only screen and (min-width: 120em) {
   html {
   font-size: 130%;
-  }
-  .copyright {
-    float: left;
-  }
-  .nav-footer {
-    float: right;
   }
 }
