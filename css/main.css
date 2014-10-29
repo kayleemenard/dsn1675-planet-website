@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+a:focus {
+  outline: 3px solid orange;
+}
+
 .img-flex {
   display: block;
   width: 100%;
